@@ -2,16 +2,54 @@
 
 ## Overview
 
-TPM Agent is a GitHub Action that uses AI to analyze, evaluate, and improve GitHub issues, transforming them into high-quality user stories ready for engineering work. It leverages Azure OpenAI and Semantic Kernel to provide actionable feedback, suggest labels, and refactor stories for clarity, completeness, and testability.
+TPM Agent is a helpful tool (called a GitHub Action) that uses artificial intelligence to review and improve your GitHub issues. Think of it as a smart project manager that rewrites unclear tasks into clean, complete, and engineer-ready user stories.
+
+It makes your GitHub issues:
+
+1.Clearer to understand
+
+2.Easier to prioritize
+
+3.Ready for developers to work on immediately
 
 ## Features
+-**AI-Driven Issue Review**
+TPM Agent reads each GitHub issue and:
 
-- **AI-Driven Issue Evaluation:** Summarizes, checks completeness, and judges readiness of issues.
-- **Refactored User Stories:** Suggests improved titles, descriptions, and acceptance criteria when needed.
-- **Label Suggestions:** Recommends up to 3 relevant GitHub labels.
-- **Markdown Round-Trip:** Robust parsing and formatting for seamless GitHub comment updates.
-- **Input Validation:** Ensures all required inputs are present and valid.
-- **Modular Codebase:** Clean separation of concerns for maintainability.
+Summarizes it clearly
+
+Checks if enough information is provided
+
+Tells you if it’s ready for developers to start working
+
+-**Improved User Stories**
+If the issue is unclear, the agent:
+
+Suggests a better title
+
+Rewrites the description in a user-focused way
+
+Adds "Acceptance Criteria" so the team knows when the task is done
+
+-**Smart Label Suggestions**
+Automatically recommends up to 3 relevant labels (like bug, enhancement, or UI) to keep your board organized.
+
+-**Clean Formatting with Markdown**
+Uses GitHub's markdown formatting to:
+
+Make the AI’s suggestions easy to read
+
+Seamlessly update the issue with structured content
+
+-**Safe Input Handling**
+Double-checks that all required configuration values (like your AI API key) are valid before running.
+
+-**Modular, Maintainable Codebase**
+Built in a clean, modular way—so developers can easily:
+
+Understand how it works
+
+Extend or customize it for specific workflows
 
 ## Usage
 
